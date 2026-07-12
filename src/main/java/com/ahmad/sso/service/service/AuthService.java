@@ -61,7 +61,7 @@ public class AuthService {
                 .build();
 
         user = userRepository.save(user);
-        userEventPublisher.publishUserCreated(user.getId(), user.getTenantId(), user.getEmail());
+//        userEventPublisher.publishUserCreated(user.getId(), user.getTenantId(), user.getEmail());
 
         return issueTokens(user, List.of(), List.of());
     }

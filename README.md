@@ -173,5 +173,7 @@ Events should carry minimal payload (user id, tenant id, event type, timestamp) 
 - CI/CD pipeline tooling
 - API versioning strategy (URI-based `/v1/` recommended to start)
 
+---
+
 ## 14. OpenTelemetry
-- 
+- it is commented
