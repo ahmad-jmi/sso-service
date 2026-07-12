@@ -172,3 +172,6 @@ Events should carry minimal payload (user id, tenant id, event type, timestamp) 
 - Whether hard-delete is ever required, or soft-delete + anonymization is sufficient
 - CI/CD pipeline tooling
 - API versioning strategy (URI-based `/v1/` recommended to start)
+
+## 14. OpenTelemetry
+- 
